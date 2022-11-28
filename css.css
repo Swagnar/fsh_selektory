@@ -1,0 +1,150 @@
+/* 
+[1] Daj wszystkim elementom krój czcionki Arial i rozmiar 10px 
+*/
+
+
+
+/* 
+[2] Daj znacznikowi <body> jako tło gradient liniowy pionowy o kolorach purple, violet, pink, purple 
+*/
+
+
+
+/*
+[3] Nadaj nieparzystym elementom <li> 
+  znajdującym się wewnątrz list nieuporządkowanych:
+
+    biały kolor tła
+    czerwony kolor czcionki,
+
+  tylko gdy występują po <h2> 
+*/
+
+
+
+/*
+[4] Zmień kolor czcionki elementów <h2> na niebieski 
+*/
+
+
+
+/* 
+[5] Nadaj elementowi <td>
+  znajdującym się wewnątrz obiektów z klasą `krotka`:
+
+    biały kolor tła
+
+  tylko jeżeli istnieje już znacznik <input> z atrybutem `type` ustawionym jako `hidden`
+*/
+
+
+
+/*
+[6] Zmień kolor tła wszystkich elementów <p> wewnątrz <div>'ów na żółty 
+*/
+
+
+
+/*
+[7] Nadaj obramowanie znacznikowi <input> jeżeli gdziekolwiek wewnątrz atrybutu name znajduje się 'form' 
+*/
+
+
+
+/*
+[8] Nadaj podkreślenie tekstu znacznikowi <label> tylko gdy poprzedza go <input> z atrybutem name = "tmp" 
+*/
+
+
+
+/* 
+[9] Spraw aby kolor czcionki elementów <h1> zmieniał się na niebieski po najechaniu na nie kursorem 
+*/
+
+
+
+/* 
+[10] Nadaj elementowi z id 'special': 
+  podkreślenie tekstu,
+  przezroczystość 0.3* ustawiając kolor RGB 0 255 251* (*oba efekty uzyskać za pomocą jednego polecenia)
+*/
+
+
+
+/* 
+[11] Nadaj rozmiar czcionki 25px 
+  każdemu znacznikowi <p> 
+  którego rodzicem jest <div> 
+*/
+
+
+
+/* 
+[12] Nadaj pomarańczowy kolor tła 
+  znacznikom <input> 
+  które jako atrybut `type` mają `text` 
+*/
+
+
+
+/* 
+[13] Zmień kolor tła trzeciego <div> na sienna 
+*/
+
+
+
+/* 
+[14] Nadaj 
+  czarne obramowanie o szerokości 5px
+  
+co drugiemu <p> 
+  gdziekolwiek wewnątrz znaczników <div>   
+*/
+
+
+
+/* 
+[15] Nadaj biały kolor czcionki
+  oraz rozmiar czcionki 25px
+
+znacznikowi <em> 
+  wewnątrz trzeciego <div>
+*/
+
+
+
+/* 
+[16] Nadaj lewy margines o szerokości 50px
+
+tylko zaznaczonym checkbox'om  
+*/
+
+
+
+/* 
+[17] Zamień wszystkie litery wewnątrz znaczników <label> na wielkie litery 
+*/
+
+
+
+/* 
+[18] Zmień tylko pierwszą literę wewnątrz znacznika z atrybutem 'id=special' na wielką literę, zielony kolor czcionki i rozmiar czcionki na 80px
+*/
+
+  
+
+/* 
+[19] Zmień kolor odnośników które zostały odwiedzone na szary 
+*/
+
+
+
+/*
+[20]Nadaj
+  margines wewnętrzny 20px
+  lewy margines zewnętrzny 70%
+
+Elementowi input z atrybutem `type` ustawionym jako `date`,
+  będącego dzieckiem obiektów z klasą `specjalne`,
+  tylko jeśli poprzedza go znacznik <br>
+*/

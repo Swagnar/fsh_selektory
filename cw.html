@@ -1,0 +1,115 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Ćwiczenie selektorów CSS</title>
+  <style>
+    table {
+      width: 100%; 
+      background-color: crimson;
+    }
+    td {
+      padding: 30px;
+      font-size: 50px;
+    }
+    table, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+  </style>
+  <link rel="stylesheet" type="text/css" href="cs.css">
+</head>
+<body>
+<p>Paragraf nie w divie</p>
+
+<div>
+  <p id="special">Paragraf z atrybutem 'id=special' </p>
+
+  <h2>Jestem znacznikiem h2 </h2>
+  
+  
+  <p>Taki se paragraf bez niczego <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus optio, nulla dolorum alias quibusdam error! Quidem fugit optio debitis tenetur delectus itaque, dicta nemo culpa beatae assumenda nobis? Earum, amet.</p>
+
+</div>
+
+<div>
+  <h2>Też jestem znacznikiem h2</h2>
+
+  <ul>
+    <li>Wyprowadzić psa <input type="checkbox" checked> </li>
+    <li>Nakarmić psa <input type="checkbox" checked> </li>
+    <li>Umyć psa <input type="checkbox"></li>
+  </ul>
+</div>
+
+<div>
+  <h2>Jestem kolejnym znacznikiem h2, i jest to też trzeci div</h2>
+
+  <p>Jestem paragrafem w trzecim divie <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat omnis tenetur maiores eveniet quia nisi quos veniam itaque error. Voluptatum expedita autem explicabo alias veritatis dignissimos ducimus dolores! Architecto, temporibus.</p>
+
+  <p>Jestem drugim paragrafem w trzecim divie <br> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae eum voluptate expedita ipsam, odio cupiditate doloremque nihil nesciunt quae voluptatum amet id quasi facere similique. Rerum magni quidem quasi neque?</p>
+  <span>
+    <p> Ja trzecim ale moim rodzicem jest span</p>
+  </span>
+  <em> cokolwiek bo jestem emem </em>
+  
+</div>
+
+<p>A ja jestem paragrafem który już nie jest w divie</p>
+
+
+<div>
+  <h2>Eh, kolejny h2</h2>
+
+  <p>Cześć, tu kolejny paragraf wewnątrz diva</p>
+
+  <p>Iiiiiiii ostatni paragraf</p>
+
+  <a href="https://www.google.com">Jestem odnośnikiem do Google</a>
+  <a href="https://www.google.com">A ja kolejnym odnośnikiem do Google</a>
+  <br>
+
+  <input type="text" name="form-name" placeholder="Mam name=form"/><label>Imie</label><br/>
+  <input type="password" name="form-password" placeholder="Mam name=form"/><label>Hasło</label><br/>
+  <input type="text" name="tmp" placeholder="A ja nie"><label>Ale mam podkreślenie</label><br />
+  <input type="text" placeholder="Ja też nie"><label>To ja nie mam nic</label>
+  <div class="specjalne">
+    <input type="file">
+    <br>
+    <input type="date">
+    <input type="date">
+    <div>
+      <input type="file">
+      <br>
+      <input type="date">
+      <input type="date">
+    </div>
+  </div>
+  <table>
+    <tr class="krotka">
+      <input type="hidden">
+      <td>1</td>
+      <td>2</td>
+    </tr>
+    <tr class="krotka">
+      <td>1</td>
+      <input type="hidden">
+      <td>2</td>
+    </tr>
+    <tr>
+      <input type="hidden">
+      <td>1</td>
+      <td>2</td>
+    </tr>
+  </table>
+</div>
+
+
+<!-- 
+
+  Plik .css wysłać jako archiwum .zip o nazwie 'Imie Nazwisko.zip'
+  na adres SZYBILI51@eszkola.opolskie.pl
+
+ -->
+
+</body>
+</html>
